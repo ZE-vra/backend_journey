@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	x := 5.5
+	x, z := 5.5, 10
 	y := 12
-	fmt.Print(x + float64(y))
+	fmt.Println(x+float64(y), z)
 }

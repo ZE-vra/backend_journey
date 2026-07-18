@@ -13,4 +13,5 @@ func main() {
 	countries[1] = "Argentina"
 	countries[1] = "Spain"
 	fmt.Print(countries)
+	fmt.Print(countries[len(countries)])
 }

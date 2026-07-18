@@ -9,5 +9,7 @@ func main() {
 		"Redeemed",
 	}
 	fmt.Println(churches)
+	fmt.Println(churches[len(churches)-1])
+	fmt.Println(churches[len(churches)-2])
 
 }

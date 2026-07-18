@@ -9,4 +9,6 @@ func main() {
 
 	fmt.Println(name)
 	fmt.Println(age)
+	fmt.Println(name == "Zevra", "Hello"+" "+name)
+	fmt.Println(name + " " + "is" + " " + "beautiful")
 }
